@@ -7,10 +7,12 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Build;
-import android.support.annotation.IntDef;
 import android.util.AttributeSet;
 import android.view.View;
 
+import androidx.annotation.IntDef;
+
+import com.rmondjone.locktableview.R;
 import com.rmondjone.xrecyclerview.progressindicator.indicator.BallBeatIndicator;
 import com.rmondjone.xrecyclerview.progressindicator.indicator.BallClipRotateIndicator;
 import com.rmondjone.xrecyclerview.progressindicator.indicator.BallClipRotateMultipleIndicator;
@@ -40,7 +42,6 @@ import com.rmondjone.xrecyclerview.progressindicator.indicator.PacmanIndicator;
 import com.rmondjone.xrecyclerview.progressindicator.indicator.SemiCircleSpinIndicator;
 import com.rmondjone.xrecyclerview.progressindicator.indicator.SquareSpinIndicator;
 import com.rmondjone.xrecyclerview.progressindicator.indicator.TriangleSkewSpinIndicator;
-import com.rmondjone.locktableview.R;
 
 
 /**

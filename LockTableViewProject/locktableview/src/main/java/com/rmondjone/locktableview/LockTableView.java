@@ -1,15 +1,9 @@
 package com.rmondjone.locktableview;
 
 import android.content.Context;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
-import android.text.method.NumberKeyListener;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -18,21 +12,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.core.content.ContextCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.rmondjone.xrecyclerview.ProgressStyle;
 import com.rmondjone.xrecyclerview.XRecyclerView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 
 /**
  * 说明 可锁定首行和首列的表格视图
