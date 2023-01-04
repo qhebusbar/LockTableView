@@ -1,6 +1,7 @@
 # LockTableView
 对LockTableView进行AndroidX适配
-[LockTableView]:https://github.com/RmondJone/LockTableView
+
+详细使用说明请看:https://github.com/RmondJone/LockTableView
 
 ## 工程集成说明
 * 第一步
@@ -15,8 +16,7 @@ allprojects {
 }
 ```
 
-* 第二步
-[![](https://www.jitpack.io/v/Nick5290/LockTableView.svg)](https://www.jitpack.io/#Nick5290/LockTableView)
+* 第二步 tag:[![](https://www.jitpack.io/v/Nick5290/LockTableView.svg)](https://www.jitpack.io/#Nick5290/LockTableView)
 ```java
 dependencies {
 	implementation 'androidx.appcompat:appcompat:1.2.0'
